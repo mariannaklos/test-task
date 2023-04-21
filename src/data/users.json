@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "user": "Stepan Bandera",
+    "tweets": 6666,
+    "followers": 42000000,
+    "avatar": "https://th.bing.com/th/id/OIP.Q9E_SYQB2xh8dw_5sMMgPwHaH5?pid=ImgDet&rs=1"
+  },
+  {
+    "id": 2,
+    "user": "Roman Shukhevych",
+    "tweets": 654,
+    "followers": 455440,
+    "avatar": "https://www.kyivpost.com/wp-content/uploads/data/uploads/c/iblock/articles/64630/68/original.jpg"
+  },
+  {
+    "id": 3,
+    "user": "Volodymyr Vynnychenko",
+    "tweets": 454,
+    "followers": 12005,
+    "avatar": "https://osvita.ua/doc/images/news/605/60512/25_.jpg"
+  },
+  {
+    "id": 4,
+    "user": "Mykhailo Hrushevs'kyi",
+    "tweets": 195,
+    "followers": 4500,
+    "avatar": "https://www.ualberta.ca/canadian-institute-of-ukrainian-studies/media-library/pjc/images/hrush5.jpg"
+  },
+  {
+    "id": 5,
+    "user": "Evhen Konovalec'",
+    "tweets": 545,
+    "followers": 1254,
+    "avatar": "https://osvita.ua/doc/images/news/605/60512/29__novyj_razmer.jpg"
+  },
+  {
+    "id": 6,
+    "user": "Symon Petlyura",
+    "tweets": 125,
+    "followers": 450,
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/8/86/%D0%A1%D0%B8%D0%BC%D0%BE%D0%BD_%D0%9F%D0%B5%D1%82%D0%BB%D1%8E%D1%80%D0%B0_1922.jpg"
+  }
+]

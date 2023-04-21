@@ -1,17 +1,13 @@
-import css from './Card.module.css';
+import { CardHeader } from "../CardHeader/CardHeader";
+import { Info } from "../Info/Info";
 
-import { User } from '../User/User';
-import { Logo } from '../Logo/Logo';
+import css from "./Card.module.css";
 
-export const Card = ({ onChangeFollowers, onFollowClick, isFollowed, followers }) => {
+export function Card({ userInfo: { id, user, tweets, followers, avatar } }) {
   return (
-    <div className={css.Card}>
-      <Logo />
-      <User 
-      isFollowed={isFollowed}
-      followers={followers}
-      onFollowClick={onFollowClick}
-      onChangeFollowers={onChangeFollowers}/>
-    </div>
+    <li className={css.galleryItem}>
+      <CardHeader avatar={avatar} alt={user} />
+      <Info tweets={tweets} followers={followers} cardId={id} />
+    </li>
   );
-};
+}

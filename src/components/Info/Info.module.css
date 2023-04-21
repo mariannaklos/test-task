@@ -1,0 +1,46 @@
+.infoSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.infoList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
+.infoItem {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: calc(29 / 24);
+  text-transform: uppercase;
+
+  color: #ebd8ff;
+}
+
+.button {
+  width: 226px;
+  padding: 16px 32px;
+  background-color: #ebd8ff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  text-transform: uppercase;
+  color: #373737;
+}
+
+.clicked {
+  background-color: #5cd3a8;
+}
